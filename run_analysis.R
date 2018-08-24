@@ -1,3 +1,5 @@
+#setting working directory where samsung data is stored
+setwd("C:/Users/shbhadauria/Desktop/coursera/getting nd cleaning data")
 #read data into variables
 train=read.csv("C:/Users/shbhadauria/Desktop/coursera/getting nd cleaning data/UCI HAR Dataset/train/X_train.txt",header = FALSE, sep = "",dec=".")
 test=read.csv("C:/Users/shbhadauria/Desktop/coursera/getting nd cleaning data/UCI HAR Dataset/test/X_test.txt",header = FALSE, sep = "", dec = ".")
